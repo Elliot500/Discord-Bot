@@ -23,7 +23,7 @@ Client.on("guildMemberAdd", member => {      member.roles.add("88222358314379673
     const embeds = new Discord.MessageEmbed()     
         .setAuthor("EK'GRAPHICS")     
         .setImage(`${member.user.displayAvatarURL()}`)     
-        .setTitle("Bienvenue !")     
+        .setTitle("Bienvenue ! 👋")     
         .setDescription(`<@${member.user.id}> Vient de rejoindre le serveur ! `) 
         .setFooter("Nous sommes maintenant"  +  member.guild.memberCount)    
         .setColor("#FFFFFF")
@@ -36,7 +36,7 @@ Client.on("guildMemberRemove", member => {
     const embed = new Discord.MessageEmbed() 
         .setAuthor("EK'GRAPHICS")     
         .setImage(`${member.user.displayAvatarURL()}`)     
-        .setTitle("À Bientôt !")     
+        .setTitle("À Bientôt ! 👋")     
         .setDescription(`<@${member.user.id}> Vient de quitter le serveur ! `) 
         .setFooter("Nous sommes maintenant"  +  member.guild.memberCount)    
         .setColor("#FFFFFF")
@@ -47,4 +47,4 @@ Client.on("guildMemberRemove", member => {
 
 
 
-Client.login("ODgyMTc1Mjk5Nzk2NzU0NDYy.YS3jxQ.J1xfREYxHsBS0LryMwOrdVr8KSM");
+Client.login("ODgyMTc1Mjk5Nzk2NzU0NDYy.YS3jxQ.2HbosqGGozCDUggM7l6KjzHVx5Y");
